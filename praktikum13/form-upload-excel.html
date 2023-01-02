@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman Web Dinamis</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form Upload Excel</legend>
+        <form action="proses-impor-excel.php" enctype="multipart/form-data" method="post">
+            <div>
+                <label for="exampleInputFile">File Upload</label>
+                <input type="file" name="berkas_excel" class="form-control" id="exampleInputFile">
+            </div>
+            <button type="submit" class="btn btn-primary">Import</button>
+        </form>
+    </fieldset>
+</body>
+</html>
